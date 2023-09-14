@@ -1,0 +1,20 @@
+@keyframes piscar {
+    0% { color: rgb(255, 0, 0); } /* Vermelho */
+    25% { color: rgb(0, 255, 0); } /* Verde */
+    50% { color: rgb(0, 0, 255); } /* Azul */
+    75% { color: rgb(255, 255, 0); } /* Amarelo */
+    100% { color: rgb(255, 0, 255); } /* Magenta */
+  }
+  
+  .piscando {
+    animation: piscar 10s linear infinite; /* Altere a duração ou outros valores conforme necessário */
+  }
+.footer {
+  position: fixed;
+  bottom: 0;
+  justify-content: flex-end;
+}
+.footer span {
+  font-size: 1.1rem;
+  font-weight: 300;
+}
